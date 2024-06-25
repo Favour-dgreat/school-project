@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login</title>
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="app.js" defer></script>
     <script type="module">
@@ -17,17 +17,15 @@
 </head>
 <body>
     <div class="container">
-        <div id="signup-form">
-            <h2>Sign Up</h2>
-            <input type="email" id="signup-name" placeholder="Full Name">
-            <input type="email" id="signup-matric" placeholder="Matric Number">
-            <input type="email" id="signup-department" placeholder="Department">
-
-            <input type="email" id="signup-email" placeholder="Email">
-            <input type="password" id="signup-password" placeholder="Password">
-            <a href="./login.html" style="color: white;"> Login if you already have an account </a> 
+        <div id="login-form">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Password">
+            <a href="./register.html" style="color: white;"> Sign up if you don't have an account </a> 
             <br><br>
-            <button id="signup" style="cursor: pointer;">Sign Up</button>
+
+            <a href="./dashboard.html"><button id="login-button" >Login</button></a>
+        </div>
         </div>
     </div>
 </body>
